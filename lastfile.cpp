@@ -38,12 +38,12 @@ int grade;
 int n=0;
 cout<<"                          ID's of Doctors are such as   1,2,3,.....25   "<<endl;
 
-cout<<"                      ****************   Doctor  appointment  module  **************** "<<endl<<endl;
-cout<<"                      ****************************************************************"<<endl;
-cout<<"                      *  if you want to search by doctor's id please enter 1         *"<<endl;
-cout<<"                      *  if you want to search by doctor's name pleas enter 2        *"<<endl;
-cout<<"                      *  if you want to search by doctor's speciality pleas enter 3  *"<<endl;
-cout<<"                      *****************************************************************"<<endl<<endl;
+cout<<"****************   Doctor  appointment  module  **************** "<<endl<<endl;
+cout<<" ****************************************************************"<<endl;
+cout<<" * if you want to search by doctor's id please enter 1 *"<<endl;
+cout<<" *  if you want to search by doctor's name pleas enter 2   *"<<endl;
+cout<<" *  if you want to search by doctor's speciality pleas enter 3  *"<<endl;
+cout<<" *****************************************************************"<<endl<<endl;
 int chk;
 cin>>chk;
 if(chk==1){
@@ -508,14 +508,14 @@ file.close();
 int main()
 {  hms obj;
 	int mago;
-cout<<"                      **** Welcome to hospital management system Project ****     "<<endl<<endl;
-cout<<"                      *******************************************************"<<endl;
-cout<<"                      * Doctor appointment module                         1 *"<<endl;
-cout<<"                      * Patient profile and admission module              2 *"<<endl;
-cout<<"                      * room reservation                                  3 *"<<endl;
-cout<<"                      * Labs, Wards and Operation theatres information    4 *"<<endl;
-cout<<"                      * for Staff management                              5 *"<<endl;
-cout<<"                      *******************************************************"<<endl<<endl;
+cout<<" **** Welcome to hospital management system Project ****     "<<endl<<endl;
+cout<<" *******************************************************"<<endl;
+cout<<" * Doctor appointment module                         1 *"<<endl;
+cout<<" * Patient profile and admission module              2 *"<<endl;
+cout<<" * room reservation                                  3 *"<<endl;
+cout<<" * Labs, Wards and Operation theatres information    4 *"<<endl;
+cout<<" * for Staff management                              5 *"<<endl;
+cout<<" *******************************************************"<<endl<<endl;
 cin>>mago;
 
 if(mago==1){
@@ -528,13 +528,13 @@ if(mago==1){
 }
 else if(mago==2)
 {
-cout<<"                      ******** Patient profile and admission module  ******** "<<endl<<endl;
-cout<<"                      *******************************************************"<<endl;
-cout<<"                      * If you want to admit new patient please enter     1 *"<<endl;
-cout<<"                      * If you want to read all patient list enter        2 *"<<endl;
-cout<<"                      * IF you want to delete patient data permamentaly : 3 *"<<endl;
-cout<<"                      * If you want to search patient by ID enter         4 *"<<endl;
-cout<<"                      *******************************************************"<<endl<<endl;
+cout<<" ******** Patient profile and admission module  ******** "<<endl<<endl;
+cout<<" *******************************************************"<<endl;
+cout<<" * If you want to admit new patient please enter     1 *"<<endl;
+cout<<" * If you want to read all patient list enter        2 *"<<endl;
+cout<<" * IF you want to delete patient data permamentaly : 3 *"<<endl;
+cout<<" * If you want to search patient by ID enter         4 *"<<endl;
+cout<<" *******************************************************"<<endl<<endl;
 cin>>chok;
 if(chok==1)
 {
@@ -604,12 +604,12 @@ else if(mago==5)
 {
  char y='y';
 
-cout<<"                      ******** Welcome to Staff management module    ******** "<<endl<<endl;
-cout<<"                      *******************************************************"<<endl;
-cout<<"                      *   If you want to search over all staff and house      1 *"<<endl;
-cout<<"                      *   If you want to admit new staff members              2 *"<<endl;
-cout<<"                      *   If you want to read all staff information           3 *"<<endl;
-cout<<"                      *******************************************************"<<endl<<endl;
+cout<"******** Welcome to Staff management module    ******** "<<endl<<endl;
+cout<"*******************************************************"<<endl;
+cout<"*   If you want to search over all staff and house      1 *"<<endl;
+cout<"*   If you want to admit new staff members              2 *"<<endl;
+cout<"*   If you want to read all staff information           3 *"<<endl;
+cout<"*******************************************************"<<endl<<endl;
 cin>>chok;
 if(chok==1)
 {
